@@ -29,7 +29,7 @@ module Spree
 
     # Always create a source which references to the selected Mollie payment method.
     def source_required?
-      false
+      true
     end
 
     def available_for_order?(_order)
